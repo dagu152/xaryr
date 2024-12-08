@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # 设置 GitHub 上 config_files 目录的 URL 基础部分
-BASE_URL="https://raw.githubusercontent.com/dagu152/xaryr/main/config_files/"
+BASE_URL="https://raw.githubusercontent.com/dagu152/xaryr/refs/heads/main/config_files/"
 CONFIG_PATH="/etc/XrayR/config.yml"  # 假设配置文件路径
 
 # 获取 config_files 目录下的所有 .yml 文件
-config_files=($(curl -s https://github.com/dagu152/xaryr/tree/main/config_files | grep -oP '(?<=href=")/dagu152/xaryr/raw/main/config_files/.*\.yml(?=")' | sed 's|/dagu152/xaryr/raw/main/config_files/||'))
+config_files=($(curl -s https://github.com/dagu152/xaryr/refs/heads/main/config_files | grep -oP '(?<=href=")/dagu152/xaryr/refs/heads/main/config_files/.*\.yml(?=")' | sed 's|/dagu152/xaryr/refs/heads/main/config_files/||'))
 
 # 如果没有找到任何 .yml 文件
 if [ ${#config_files[@]} -eq 0 ]; then
