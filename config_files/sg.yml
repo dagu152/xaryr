@@ -316,7 +316,7 @@ Nodes:
   -
     PanelType: "NewV2board" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
-      ApiHost: "https://feiyu.keeps.top"
+      ApiHost: "https://x.58967.top"
       ApiKey: "dfsvsdv5sjsvhsjvcsvssv"
       NodeID: 1
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
