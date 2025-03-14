@@ -18,7 +18,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://feiyu.keeps.top"
       ApiKey: "fbynfvdbhmtrvburt"
-      NodeID: 53
+      NodeID: 46
       NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
@@ -68,7 +68,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://x.58967.top"
       ApiKey: "dfsvsdv5sjsvhsjvcsvssv"
-      NodeID: 1
+      NodeID: 26
       NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
