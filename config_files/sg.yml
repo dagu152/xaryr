@@ -318,8 +318,8 @@ Nodes:
     ApiConfig:
       ApiHost: "https://x.58967.top"
       ApiKey: "dfsvsdv5sjsvhsjvcsvssv"
-      NodeID: 1
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeID: 28
+      NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
@@ -368,8 +368,8 @@ Nodes:
     ApiConfig:
       ApiHost: "https://x.58967.top"
       ApiKey: "dfsvsdv5sjsvhsjvcsvssv"
-      NodeID: 2
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeID: 30
+      NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
@@ -418,8 +418,8 @@ Nodes:
     ApiConfig:
       ApiHost: "https://x.58967.top"
       ApiKey: "dfsvsdv5sjsvhsjvcsvssv"
-      NodeID: 3
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeID: 31
+      NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
